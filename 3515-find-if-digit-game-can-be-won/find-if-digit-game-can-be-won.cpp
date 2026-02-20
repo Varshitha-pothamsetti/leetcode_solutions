@@ -1,17 +1,17 @@
 class Solution {
 public:
     bool canAliceWin(vector<int>& nums) {
-        int singlesum = 0;
-        int doublesum = 0;
+        int singlenum = 0;
+        int doublenum = 0;
 
         for(int num : nums){
             if(num < 10){
-                singlesum += num;
+                singlenum += num;
             }
             else{
-                doublesum += num;
+                doublenum += num;
             }
         }
-        return singlesum != doublesum;
+        return singlenum != doublenum;
     }
 };
