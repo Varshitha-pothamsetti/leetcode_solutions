@@ -15,10 +15,12 @@ public:
             else if(moves[i] == 'D'){
                 y--;
             }
-        }
+        }   
         if(x == 0 && y == 0){
             return true;
         }
-        else return false;
+        else{
+            return false;
+        }
     }
 };
