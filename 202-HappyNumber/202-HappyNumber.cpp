@@ -1,25 +1,25 @@
-// Last updated: 01/03/2026, 20:22:27
-class Solution {
-public:
-    bool isHappy(int n) {
-        if(n == 1)
-            return true;
-            int s = 0;
-            while(n > 1){
-                while(n > 0){
-                    int m = n % 10;
-                    s += m * m;
-                    n /= 10;
-                }
-                if(s == 1){
-                    return true;
-                }
-                n = s;
-                s = 0;
-                if(n == 4){
-                    return false;
-                }
-            }
-            return false;
-    }
-};
+// Last updated: 04/03/2026, 14:25:21
+1class Solution {
+2public:
+3    bool isHappy(int n) {
+4        if(n == 1)
+5            return true;
+6            int s = 0;
+7            while(n > 1){
+8                while(n > 0){
+9                    int m = n % 10;
+10                    s += m * m;
+11                    n /= 10;
+12                }
+13                if(s == 1){
+14                    return true;
+15                }
+16                n = s;
+17                s = 0;
+18                if(n == 4){
+19                    return false;
+20                }
+21            }
+22            return false;
+23    }
+24};
