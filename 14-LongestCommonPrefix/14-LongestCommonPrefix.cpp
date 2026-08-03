@@ -1,16 +1,16 @@
-// Last updated: 01/03/2026, 20:23:20
-class Solution {
-public:
-    string longestCommonPrefix(vector<string>& strs) {
-        if(strs.empty()) return "";
-        string prefix = strs[0];
-        for(size_t i = 1; i < strs.size(); ++i){
-            const string& s = strs[i];
-            while(s.find(prefix) != 0){
-                if(prefix.empty()) return "";
-                prefix.pop_back();
-            }
-        }
-        return prefix;
-    }
-};
+// Last updated: 03/08/2026, 15:30:07
+1class Solution {
+2public:
+3    string longestCommonPrefix(vector<string>& strs) {
+4        if(strs.empty()) return "";
+5        string prefix = strs[0];
+6        for(size_t i = 1; i < strs.size(); ++i){
+7            const string& s = strs[i];
+8            while(s.find(prefix) != 0){
+9                if(prefix.empty()) return "";
+10                prefix.pop_back();
+11            }
+12        }
+13        return prefix;
+14    }
+15};
