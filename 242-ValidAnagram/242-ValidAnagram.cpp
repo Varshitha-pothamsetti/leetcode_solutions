@@ -1,12 +1,12 @@
-// Last updated: 01/03/2026, 20:22:17
-class Solution {
-public:
-    bool isAnagram(string s, string t) {
-        sort(s.begin(), s.end());
-        sort(t.begin(), t.end());
-        if(s == t){
-            return true;
-        }
-        return false;
-    }
-};
+// Last updated: 03/08/2026, 19:57:58
+1class Solution {
+2public:
+3    bool isAnagram(string s, string t) {
+4        sort(s.begin(), s.end());
+5        sort(t.begin(), t.end());
+6        if(s == t){
+7            return true;
+8        }
+9        return false;
+10    }
+11};
