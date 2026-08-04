@@ -1,4 +1,4 @@
-// Last updated: 05/03/2026, 10:31:56
+// Last updated: 04/08/2026, 13:55:31
 1class Solution {
 2public:
 3    int subarraySum(vector<int>& nums, int k) {
