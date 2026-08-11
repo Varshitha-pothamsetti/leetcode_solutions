@@ -1,4 +1,4 @@
-// Last updated: 11/08/2026, 11:33:34
+// Last updated: 11/08/2026, 20:12:33
 1class StockSpanner {
 2public:
 3    stack<pair<int, int>> st;
