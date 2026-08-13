@@ -1,4 +1,4 @@
-// Last updated: 13/08/2026, 09:51:20
+// Last updated: 13/08/2026, 09:51:34
 1class Solution {
 2public:
 3    int search(vector<int>& nums, int target) {
