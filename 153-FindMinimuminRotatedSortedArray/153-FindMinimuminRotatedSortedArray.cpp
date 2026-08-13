@@ -1,4 +1,4 @@
-// Last updated: 05/05/2026, 18:18:44
+// Last updated: 13/08/2026, 09:52:56
 1class Solution {
 2public:
 3    int findMin(vector<int>& nums) {
