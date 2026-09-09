@@ -1,0 +1,26 @@
+// Last updated: 09/09/2026, 21:25:22
+/**
+ * @param {string} val
+ * @return {Object}
+ */
+var expect = function(val) {
+    return {
+        toBe:function(compareVal){
+            if(val === compareVal){
+                return true;
+            }
+            throw new Error("Not Equal");
+        },
+        notToBe:function(compareVal){
+            if(val !== compareVal){
+                return true;
+            }
+            throw new Error("Equal");
+        }
+    };
+};
+
+/**
+ * expect(5).toBe(5); // true
+ * expect(5).notToBe(5); // throws "Equal"
+ */
