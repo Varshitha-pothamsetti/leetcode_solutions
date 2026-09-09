@@ -1,0 +1,15 @@
+// Last updated: 09/09/2026, 21:22:18
+class Solution {
+public:
+    int countCommas(int n) {
+        int ans = 0;
+        for(int i = 1000; i <= n; i++){
+            int x = i;
+            while(x >= 1000){
+                ans++;
+                x /= 1000;
+            }
+        }
+        return ans;
+    }
+};
