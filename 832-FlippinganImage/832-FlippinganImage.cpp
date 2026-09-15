@@ -1,4 +1,4 @@
-// Last updated: 15/09/2026, 20:28:13
+// Last updated: 15/09/2026, 20:28:24
 1class Solution {
 2public:
 3    vector<vector<int>> flipAndInvertImage(vector<vector<int>>& image) {
