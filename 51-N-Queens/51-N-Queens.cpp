@@ -1,4 +1,4 @@
-// Last updated: 27/02/2026, 20:00:51
+// Last updated: 22/09/2026, 21:16:13
 1class Solution {
 2public:
 3    bool isValid(int row, int col, vector<string>& grid, int n){
