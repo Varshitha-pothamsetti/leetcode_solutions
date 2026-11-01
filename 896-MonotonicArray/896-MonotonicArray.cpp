@@ -1,4 +1,4 @@
-// Last updated: 01/11/2026, 21:19:49
+// Last updated: 01/11/2026, 21:19:56
 1class Solution {
 2public:
 3    bool isMonotonic(vector<int>& nums) {
