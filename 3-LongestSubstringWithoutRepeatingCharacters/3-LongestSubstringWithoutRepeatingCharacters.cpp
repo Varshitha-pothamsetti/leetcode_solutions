@@ -1,4 +1,4 @@
-// Last updated: 01/10/2026, 14:29:35
+// Last updated: 24/11/2026, 20:24:36
 1class Solution {
 2public:
 3    int lengthOfLongestSubstring(string s) {
